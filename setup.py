@@ -6,7 +6,7 @@ with open("bulkvis/_version.py") as fh:
 
 install_requires = [
     "bokeh~=2.1.0",
-    "h5py~=2.10.0",
+    "h5py",
     "pandas~=1.0.5",
     "tornado~=6.0.4",
     "tqdm~=4.46.1",
